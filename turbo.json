@@ -10,6 +10,13 @@
     "lint": {
       "dependsOn": ["^lint"]
     },
+    "format": {
+      "dependsOn": ["^format"],
+      "outputs": ["src/**"]
+    },
+    "format:check": {
+      "dependsOn": ["^format:check"]
+    },
     "check-types": {
       "dependsOn": ["^check-types"]
     },
@@ -19,3 +26,4 @@
     }
   }
 }
+
