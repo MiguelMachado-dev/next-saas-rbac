@@ -11,4 +11,3 @@ module.exports = {
     'simple-import-sort/imports': 'error',
   },
 }
-
